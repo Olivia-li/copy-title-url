@@ -1,4 +1,4 @@
-# copy-title-url
+# Copy URL as Title Markdown
 Chrome extension keyboard shortcut that let's you copy the title of the page and the link in markdown
 
 ## How to use
