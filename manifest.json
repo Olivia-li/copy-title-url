@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Link as Title",
+  "version": "1.0.1",
+  "action": {},
+  "description": "This extension copies the current page link as the title of the webpage in Markdown format.",
+  "permissions": ["activeTab", "clipboardWrite", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Copy Link as Title"
+    }
+  }
+}
